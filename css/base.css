@@ -1,4 +1,7 @@
 :root{
+
+
+    /***BASE***/
     --color-primary:#a597e7;
     --color-secondary:#6c757d;
     --color-success:#b5d56a;
@@ -12,8 +15,25 @@
     --color-transparent:transparent;
     --color-border:#dee2e6;
     --color-dark-transparent: rgba(0, 0, 0.2);
+
+
+    /****DISPLAY*****/
+    --display-xxs: 1rem;
+    --display-xs: 1.4rem;
+    --display-sm: 1.6rem;
+    --display-md: 1.8rem;
+    --display-lg: 2rem;
+    --display-xl: 2.5rem;
+    --display-xxl: 3rem;
+
+    /***LINEHEIGHT***/
+    --line-height-sm: 1rem;
+    --line-height-md: 1.6rem;
+    --line-height-lg: 3rem;
  }
 
+
+ /*****BACKGROUND*****/
  .bg-primary, .btn-primary { background-color: var(--color-primary);}
  .bg-secundary, .btn-secondary { background-color: var(--color-secondary);}
  .bg-success, .btn-success {background-color: var(--color-success);}
@@ -27,6 +47,7 @@
  .bg-transparent { background-color: var(--color-transparent);}
  .bg-dark-transparent { background-color: var(--color-dark-transparent);}
 
+ /****TEXT****/
  .text-primary{ color: var(--color-primary);}
  .text-secondary{ color: var(--color-secondary);}
  .text-success{ color: var(--color-success);}
@@ -38,6 +59,8 @@
  .text-white{ color: var(--color-white);}
  .text-cozy{ color: var(--color-cozy);}
 
+
+ /***BORDER***/
  .border-color-primary { border-color: var(--color-primary)!important; }
  .border-color-secondary { border-color: var(--color-secondary)!important; }
  .border-color-success { border-color: var(--color-success)!important; }
