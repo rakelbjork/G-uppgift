@@ -1,0 +1,52 @@
+:root{
+    --color-primary:#a597e7;
+    --color-secondary:#6c757d;
+    --color-success:#b5d56a;
+    --color-info:#84bed6;
+    --color-warning:#f0c24b;
+    --color-danger:#ea7066;
+    --color-light:#f8f9fa;
+    --color-dark:#343a40;
+    --color-white:#fff;
+    --color-cozy:#ea77ad;
+    --color-transparent:transparent;
+    --color-border:#dee2e6;
+    --color-dark-transparent: rgba(0, 0, 0.2);
+ }
+
+ .bg-primary, .btn-primary { background-color: var(--color-primary);}
+ .bg-secundary, .btn-secondary { background-color: var(--color-secondary);}
+ .bg-success, .btn-success {background-color: var(--color-success);}
+ .bg-info, .btn-info { background-color: var(--color-info);}
+ .bg-warning, .btn-warning { background-color: var(--color-warning);}
+ .bg-danger, .btn-danger { background-color: var(--color-danger);}
+ .bg-light, .btn-light { background-color: var(--color-light);}
+ .bg-dark, .btn-dark { background-color: var(--color-dark);}
+ .bg-white, .btn-white { background-color: var(--color-white);}
+ .bg-cozy, .btn-cozy { background-color: var(--color-cozy);}
+ .bg-transparent { background-color: var(--color-transparent);}
+ .bg-dark-transparent { background-color: var(--color-dark-transparent);}
+
+ .text-primary{ color: var(--color-primary);}
+ .text-secondary{ color: var(--color-secondary);}
+ .text-success{ color: var(--color-success);}
+ .text-info{ color: var(--color-info);}
+ .text-warning{ color: var(--color-warning);}
+ .text-danger{ color: var(--color-danger);}
+ .text-light{ color: var(--color-light);}
+ .text-dark{ color: var(--color-dark);}
+ .text-white{ color: var(--color-white);}
+ .text-cozy{ color: var(--color-cozy);}
+
+ .border-color-primary { border-color: var(--color-primary)!important; }
+ .border-color-secondary { border-color: var(--color-secondary)!important; }
+ .border-color-success { border-color: var(--color-success)!important; }
+ .border-color-info { border-color: var(--color-info)!important; }
+ .border-color-warning { border-color: var(--color-warning)!important; }
+ .border-color-danger { border-color: var(--color-danger)!important; }
+ .border-color-light { border-color: var(--color-light)!important; }
+ .border-color-dark { border-color: var(--color-dark)!important; }
+ .border-color-white { border-color: var(--color-white)!important; }
+ .border-color-cozy { border-color: var(--color-cozy)!important; }
+ 
+
