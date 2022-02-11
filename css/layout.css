@@ -1,2 +1,21 @@
+/*WIDTH*/
+.max-width { max-width: 192rem; }
+
+/*MARGIN*/
+.mr-auto, .mx-auto { margin-right: auto; }
+.ml-auto, .mx-auto { margin-left: auto; }
+
+/*PADDING*/
+.p-4 { padding: var(--distance-4);}
+.p-5 { padding: var(--distance-5);}
+.p-6 { padding: var(--distance-6);}
+.p-8 { padding: var(--distance-8);}
+.p-12 { padding: var(--distance-12);}
+.p-15 { padding: var(--distance-15);}
+
 /*COLORED BAR*/
 .bar-height{ height: 0.3rem; }
+
+/*IMAGES*/
+.logo-width { max-width: 13rem; }
+
