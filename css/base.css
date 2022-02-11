@@ -30,8 +30,68 @@
     --line-height-sm: 1rem;
     --line-height-md: 1.6rem;
     --line-height-lg: 3rem;
+
+    /*DISTANCE*/
+    --distance-0: 0rem;
+    --distance-1: .25rem;
+    --distance-2: .5rem;
+    --distance-3: .75rem;
+    --distance-4: 1rem;
+    --distance-5: 1.25rem;
+    --distance-6: 1.5rem;
+    --distance-7: 1.75rem;
+    --distance-8: 2rem;
+    --distance-9: 2.25rem;
+    --distance-10: 2.5rem;
+    --distance-11: 2.75rem;
+    --distance-12: 3.25rem;
+    --distance-13: 3.5rem;
+    --distance-14: 3.75rem;
+    --distance-15: 4rem;
+
+    /*SHADOWS*/
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, .1);
+    --shadow-large-light: .25rem .15rem 0 rgba(0, 0, .1);
+
+    /*BORDERS*/
+    --borders-xs-white: 0.1rem solid var(--color-white);
+    --borders-xs: .1rem solid var(--color-light);
+    --borders-sm: .2rem solid var(--color-light);
+    --borders-lg: .4rem solid var(--color-white);
+
+    --borders-radius-sm: .25rem;
+    --borders-success: .2rem solid var(--color-success);
+    --borders-transparent: .1rem solid var(--color-transparent);
+
  }
 
+ *{
+     margin: 0;
+     padding: 0;
+ }
+
+ *,
+ *::before,
+ *::after{
+     box-sizing: inherit;
+ }
+
+ html {
+     box-sizing: border-box;
+     font-size: 62.5%; /* 1rem = 10px, 10px/16px = 62.5% */
+ }
+
+ body {
+     font-family: 'Open Sans', sans-serif;
+     font-weight: 400;
+     line-height: 1.6;
+     color: var(--color-dark);
+     font-size: var(--display-sm);
+     min-height: 100vh;
+ }
+
+ .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h4, h5, h6 { font-family: "Dosis", "Open Sans", sans-serif; font-weight: 700; letter-spacing: .05rem; }
+ .ht, h1 { font-size: var(--distance-13); }
 
  /*****BACKGROUND*****/
  .bg-primary, .btn-primary { background-color: var(--color-primary);}
