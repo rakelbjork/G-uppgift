@@ -55,14 +55,14 @@
     --shadow-large-light: .25rem .15rem 0 rgba(0, 0, .1);
 
     /*BORDERS*/
-    --borders-xs-white: 0.1rem solid var(--color-white);
-    --borders-xs: .1rem solid var(--color-light);
-    --borders-sm: .2rem solid var(--color-light);
-    --borders-lg: .4rem solid var(--color-white);
+    --border-xs-white: 0.1rem solid var(--color-white);
+    --border-xs: .1rem solid var(--color-light);
+    --border-sm: .2rem solid var(--color-light);
+    --border-lg: .4rem solid var(--color-white);
 
-    --borders-radius-sm: .25rem;
-    --borders-success: .2rem solid var(--color-success);
-    --borders-transparent: .1rem solid var(--color-transparent);
+    --border-radius-sm: .25rem;
+    --border-success: .2rem solid var(--color-success);
+    --border-transparent: .1rem solid var(--color-transparent);
 
  }
 
