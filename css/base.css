@@ -44,13 +44,14 @@
     --distance-9: 2.25rem;
     --distance-10: 2.5rem;
     --distance-11: 2.75rem;
-    --distance-12: 3.25rem;
-    --distance-13: 3.5rem;
-    --distance-14: 3.75rem;
-    --distance-15: 4rem;
+    --distance-12: 3rem;
+    --distance-13: 3.25rem;
+    --distance-14: 3.5rem;
+    --distance-15: 3.75rem;
+    --distance-16: 4rem;
 
     /*SHADOWS*/
-    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, .1);
+    --shadow-small-light: .15rem .15rem 0 rgb(241, 241, 241);
     --shadow-large-light: .25rem .15rem 0 rgba(0, 0, .1);
 
     /*BORDERS*/

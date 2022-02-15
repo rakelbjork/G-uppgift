@@ -4,6 +4,8 @@
 
 /*FLEX*/
 .flex-grow { flex-grow: 1; }
+.flex-column { flex-direction: column; }
+.flec-grow { flex-grow: 1; }
 
 /*ALIGN AND JUSTIFY*/
 .justify-content-between { justify-content: space-between; }

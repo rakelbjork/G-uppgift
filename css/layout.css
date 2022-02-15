@@ -13,6 +13,18 @@
 .p-12 { padding: var(--distance-12);}
 .p-15 { padding: var(--distance-15);}
 
+/*TYPOGRAPHY*/
+.text-decoration-none { text-decoration: none;}
+
+/*CIRCLE*/
+.circle { border-radius: 100%;}
+
+/*SHADOWS*/
+.shadow-sm { box-shadow: var(--shadow-small-light); }
+
+/*BUTTONS*/
+nav div a:not(:first-child) { margin-left: var(--distance-12);}
+
 /*COLORED BAR*/
 .bar-height{ height: 0.3rem; }
 
