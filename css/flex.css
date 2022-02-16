@@ -1,11 +1,14 @@
 /*DISPLAY*/
 .d-flex { display: flex; }
+.d-none { display: none;}
 
 
 /*FLEX*/
-.flex-grow { flex-grow: 1; }
+.flex-row { flex-direction: row; }
 .flex-column { flex-direction: column; }
-.flec-grow { flex-grow: 1; }
+.flex-reverse { flex-direction: row-reverse;}
+.flex-grow { flex-grow: 1; }
+
 
 /*ALIGN AND JUSTIFY*/
 .justify-content-between { justify-content: space-between; }

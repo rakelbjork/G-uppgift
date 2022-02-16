@@ -28,6 +28,11 @@
 .mt-15, .my-15 { margin-top: var(--distance-15);}
 .mb-15, .my-15 { margin-bottom: var(--distance-15);}
 
+.mr-4, .mx-4 { margin-right: var(--distance-4);}
+.ml-4, .mx-4 { margin-left: var(--distance-4);}
+.mr-6, .mx-6 { margin-right: var(--distance-6);}
+.ml-6, .mx-6 { margin-left: var(--distance-6);}
+
 /*PADDING*/
 .p-4 { padding: var(--distance-4);}
 .p-5 { padding: var(--distance-5);}
@@ -68,6 +73,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /*BORDERS*/
 .border-radius { border-radius: var(--border-radius-sm);}
 .border-small-white { border: var(--border-xs-white);}
+.border-bottom-xs { border-bottom: var(--border-xs);}
 
 
 /*COLORED BAR*/
