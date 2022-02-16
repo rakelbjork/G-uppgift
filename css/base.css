@@ -14,7 +14,7 @@
     --color-cozy:#ea77ad;
     --color-transparent:transparent;
     --color-border:#dee2e6;
-    --color-dark-transparent: rgba(0, 0, 0.2);
+    --color-dark-transparent: rgba(0, 0, 0, 0.199);
 
 
     /****DISPLAY*****/
@@ -51,7 +51,7 @@
     --distance-16: 4rem;
 
     /*SHADOWS*/
-    --shadow-small-light: .15rem .15rem 0 rgb(241, 241, 241);
+    --shadow-small-light: .15rem .15rem 0 rgba(0, 0, 0, 0.103);
     --shadow-large-light: .25rem .15rem 0 rgba(0, 0, .1);
 
     /*BORDERS*/
