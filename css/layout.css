@@ -47,6 +47,9 @@
 .p-12 { padding: var(--distance-12);}
 .p-15 { padding: var(--distance-15);}
 
+.pr-12, .px-12 { padding-right: var(--distance-12);}
+.pl-12, .px-12 { padding-left: var(--distance-12);}
+
 /*TYPOGRAPHY*/
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;}
@@ -66,8 +69,10 @@
 /*CIRCLE*/
 .circle { border-radius: 100%;}
 
+
 /*SHADOWS*/
 .shadow-sm { box-shadow: var(--shadow-small-light); }
+.shadow-lg { box-shadow: var(--shadow-large-light); }
 
 /*BUTTONS*/
 nav div a:not(:first-child) { margin-left: var(--distance-12);}
@@ -81,6 +86,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-radius { border-radius: var(--border-radius-sm);}
 .border-small-white { border: var(--border-xs-white);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
+.border-sm { border: var(--border-sm);}
 
 
 /*COLORED BAR*/
@@ -105,3 +111,9 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
     100% { left: 0%;}
 }
 
+/*FEATURES*/
+.f-width { max-width: 33%;}
+
+/*ICONS*/
+.icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
+.icon-circle { width: 6.2rem; height: 6.2rem; padding: 0rem;}
