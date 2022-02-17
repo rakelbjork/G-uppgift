@@ -15,6 +15,8 @@
 .mr-auto, .mx-auto { margin-right: auto; }
 .ml-auto, .mx-auto { margin-left: auto; }
 
+.m-6 { margin: var(--distance-6);}
+
 .mt-0, .my-0 { margin-top: var(--distance-0);}
 .mb-0, .my-0 { margin-bottom: var(--distance-0);}
 .mt-1, .my-1 { margin-top: var(--distance-1);}
