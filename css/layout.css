@@ -55,6 +55,7 @@
 /*TYPOGRAPHY*/
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;}
+.text-uppercase { text-transform: uppercase;}
 
 .text-size-xxs { font-size: var(--display-xxs);}
 .text-size-xs { font-size: var(--display-xs);}
@@ -89,6 +90,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-small-white { border: var(--border-xs-white);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
 .border-sm { border: var(--border-sm);}
+.border-transparent { border: var(--border-transparent);}
 
 
 /*COLORED BAR*/
