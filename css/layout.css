@@ -55,6 +55,9 @@
 .pr-12, .px-12 { padding-right: var(--distance-12);}
 .pl-12, .px-12 { padding-left: var(--distance-12);}
 
+.pt-2, .py-2 { padding-top: var(--distance-2);}
+.pb-2, .py-2 { padding-bottom: var(--distance-2);}
+
 /*TYPOGRAPHY*/
 .text-decoration-none { text-decoration: none;}
 .text-center { text-align: center;}
@@ -95,6 +98,7 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 .border-small-white { border: var(--border-xs-white);}
 .border-bottom-xs { border-bottom: var(--border-xs);}
 .border-sm { border: var(--border-sm);}
+.border-lg { border: var(--border-lg);}
 .border-transparent { border: var(--border-transparent);}
 
 
@@ -126,3 +130,9 @@ nav div a:not(:first-child) { margin-left: var(--distance-12);}
 /*ICONS*/
 .icon-feature { width: 7.6rem; height: 7.6rem; padding: 0.375rem;}
 .icon-circle { width: 6.2rem; height: 6.2rem; padding: 0rem;}
+
+/*STATISTIC*/
+.statistics-image {
+    background-image: url('../images/school images/images/fun-facts/fun-facts-bg-img.jpg');
+    background-repeat: no-repeat; background-size: cover; background-position: center;
+}
